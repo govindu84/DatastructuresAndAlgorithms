@@ -25,3 +25,25 @@ Quadric Time:O(n2)    ** n power of 2
 Cubic Time: O(n3)     ** n power of 3
 Exponential Time: O(2n) ** 2 power of n
 Factorial Time :O(n!)
+
+
+Array
+Array is a container which can hold a fix number of items and these items should be of the same type. Most of the data structures make use of arrays to implement their algorithms. 
+Following are the important terms to understand the concept of Array.
+•	Element − Each item stored in an array is called an element.
+•	Index − Each location of an element in an array has a numerical index, which is used to identify the element.
+
+Static Array:
+A static Array is the most common form of array used. It is the type of array whose size cannot be altered. 
+For Example :- int c[5] creates a array of size 5 elements only, you cannot add a 6th element as the size of Array is fixed.
+
+Dynamic array:
+
+A Dynamic array (vector in C++, ArrayList in Java) automatically grows when we try to make an insertion and there is no more space left for the new item.
+Usually the area doubles in size.
+
+How to implement Dynamic Array
+1) Create a static array with an intial capacity
+2) Add elements to the underlying static array, keeping track of the number of elements.
+3) if adding another element will exceed the capacity, then create a new static array with twice the capacity and copy the original elements into it.
+
